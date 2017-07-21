@@ -4,26 +4,121 @@
 	<title>Trivia App</title>
 	<meta charset="UTF-8">
 
-	<link rel="stylesheet" type="text/css" href="./assets/reset.css">
-	<!-- Latest compiled and minified CSS --> 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <!-- Compiled and minified CSS -->
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+	
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+	<!-- https://dpalmquist84.github.io/TriviaGame/ -->
 </head>
+
 <body>
+
+<div class="jumbotron">
+  <h1>Choose your answers well</h1>
+</div>
+
+<div class="container">
+
+	<div class="start">
+	  Welcome to the game
+	</div>
+
+
+
+   <div class="row">
+
+     <div class="question1">
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+       <p>Dogs and cats are not the same</p>
+	  <input type="radio" name="true" value="true" class="true1">True
+	  <input type="radio" name="false" value="false" class="false1">False
+	</div>
+  </div>
+ 
+  <div class="question2">
+  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+	<p>I think i'm getting good at this</p>
+	  <input type="radio" name="true2" value="true" class="true2">True
+	  <input type="radio" name="false2" value="false" class="false2">False
+   </div>
+  </div>
+
+
+	<div class="question3">
+	  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+	      <p>My wife is awesome</p>
+		  <input type="radio" name="true3" value="true" class="true3">True
+		  <input type="radio" name="false3" value="false" class="false3">False
+	  </div>
+    </div>
+
+	 <div class="question4">
+	  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+          <p>My dog is bitchy</p>
+		  <input type="radio" name="true4" value="true" class="true4">True
+		  <input type="radio" name="false4" value="false" class="false4">False
+	</div>
+  </div>
+
+</div>
+
+
+<div class="row">
+  <div class="col-lg-4">
+    <p id="timer"></p>
+  </div>
+</div>
+
+<div class="results">
+  
+    <p id="right"></p>
+
+
+ 
+    <p id="wrong"></p>
+
+
+    <p id="unanswered"></p>
+
+    <button id="restart">Restart</button>
+<div id="image">
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
 
 
 
 
 <script src="./assets/javascript/app.js"></script>
 	
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

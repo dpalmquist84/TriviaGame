@@ -1,0 +1,153 @@
+html {
+	
+	height: 100%;
+	}
+body{
+	height: 100%;
+	background-image: url("http://media.jrn.com/images/N0012328051--73446.JPG");
+	background-position: center center;
+
+}	
+
+.jumbotron{
+	text-align: center;
+}
+.container{
+	min-height: 960px;
+}
+.row{
+	min-height: 120px;
+}
+.start{
+
+	height: 100px;
+	width: 500px;
+	font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    background-color: #fff;
+    text-align: center;
+    font-size: 36px;
+	
+}
+
+.question1 {
+	background: #fff;
+	color: #333;
+	position: absolute;
+	top: 30%;
+    left: 38%;
+	height: 70px;
+	width: 500px;
+	text-align: center;
+	display: none;
+
+}
+
+.question2 {
+	background: #fff;
+	color: #333;
+	position: absolute;
+    top: 40%;
+	left: 38%;
+    height: 70px;
+	width: 500px;
+	text-align: center;
+	display: none;
+}
+
+.question3 {
+	background: #fff;
+	color: #333;
+	position: absolute;
+	top: 50%;
+	left: 38%;
+	height: 70px;
+	width: 500px;
+	text-align: center;
+	display: none;
+}
+
+.question4 {
+	background: #fff;
+	color: #333;
+	position: absolute;
+	top: 60%;
+    left: 38%;
+	height: 70px;
+	width: 500px;
+	text-align: center;
+	display: none;
+}
+
+.results{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	min-height: 500px;
+	min-width: 250px;
+
+}
+#right {
+	min-height: 36px;
+	width: 150px;
+	background-color: #fff;
+	position: absolute;
+	top: 10%;
+	left: 100%;
+	display: none;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+
+#wrong{
+	min-height: 36px;
+	width: 150px;
+	background-color: #fff;
+	position: absolute;
+	top: 20%;
+	left: 100%;
+	display: none;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+#unanswered {
+	min-height: 36px;
+	width:150px;
+	background-color: #fff;
+	position: absolute;
+	top: 30%;
+	left: 100%;
+	display: none;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+#timer{
+	font-size: 24px;
+	color: red;
+	border: solid black 5px;
+	width: 200px;
+	font-weight: bold;
+	display: none;
+	text-align: center;
+
+}
+img {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 45%;
+	left: 75%;
+}
+ #restart{
+ 	position: absolute;
+ 	top: 25%;
+ 	left: 25%;
+ }
+
