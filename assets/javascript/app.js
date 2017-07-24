@@ -54,7 +54,7 @@ $('#unanswered').html("You didnt answer " + unanswered).show();
   if(right == 4){
     $('#image').html("<img src='http://images.clipartpanda.com/gold-star-clipart-diraAp9i9.jpeg'>")
   } else if (unanswered == 4){
-    $('#image').html("<img src='http://images.clipartpanda.com/gold-star-clipart-diraAp9i9.jpeg'>")
+    $('#image').html("<img src='https://www.tarshacampbellempowers.com/wp-content/uploads/Try-Again-holder-1024x517.jpg'>")
   } else if ((wrong == 4) || (wrong == 3) || (wrong == 2) || (wrong == 1)){
     $("#image").html("<img src='https://www.tarshacampbellempowers.com/wp-content/uploads/Try-Again-holder-1024x517.jpg'>")
   }
